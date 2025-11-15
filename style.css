@@ -1,0 +1,113 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Body Styling */
+body {
+    background: #f4f6f9;
+    padding: 30px;
+}
+
+/* Form Heading */
+h1 {
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 32px;
+    color: #333;
+}
+
+/* Form Container */
+form {
+    max-width: 600px;
+    margin: auto;
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+/* Fieldset Design */
+fieldset {
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    padding: 15px 20px;
+    margin-bottom: 25px;
+    background: #fafafa;
+}
+
+/* Legend styling */
+legend {
+    font-size: 18px;
+    padding: 0 10px;
+    color: #444;
+    font-weight: bold;
+}
+
+/* All Inputs */
+input, select, textarea {
+    padding: 8px 10px;
+    width: 90%;
+    margin-top: 5px;
+    border-radius: 6px;
+    border: 1px solid #aaa;
+    outline: none;
+    transition: 0.2s ease;
+}
+
+/* Input on focus */
+input:focus, select:focus, textarea:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 4px rgba(0,123,255,0.4);
+}
+
+/* Labels */
+label {
+    display: block;
+    font-size: 15px;
+    margin-bottom: 12px;
+    color: #333;
+}
+
+/* Radio + Checkbox styling */
+input[type="radio"],
+input[type="checkbox"] {
+    width: auto;
+    margin-right: 6px;
+}
+
+/* Textarea */
+textarea {
+    width: 90%;
+    height: 80px;
+    resize: vertical;
+}
+
+/* Submit button */
+input[type="submit"] {
+    background: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* Submit hover */
+input[type="submit"]:hover {
+    background: #218838;
+}
+
+/* Reset button */
+input[type="reset"] {
+    background: #dc3545;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* Reset hover */
+input[type="reset"]:hover {
+    background: #c82333;
+}

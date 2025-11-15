@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Admission From</h1>
+    <form action="/form.php" method="get">
+        <fieldset>
+            <legend>Basic Information</legend><br/>
+            <label>Full name: <input type="text" placeholder="Enter your name"></label><br/><br/>
+            <label>Password: <input type="password" placeholder="*****"></label><br/><br/>
+            <label>Email: <input type="email" placeholder="email"></label><br/><br/>
+            <label>Phone: <input type="tel" placeholder="123-456-7890"></label><br/><br/>
+            <label>Age: <input type="number" placeholder="Enter your age"></label><br/><br/>
+            <label>URL: <input type="url" placeholder="https://www.example.com"></label><br/><br/>
+            <label>Search: <input type="search" name="" id=""></label><br/><br/>
+        </fieldset>
+        <br/> <br/>
+        <fieldset>
+            <legend>Date & Time</legend><br/>
+            <label>Date: <input type="date" "></label><br/><br/>
+            <label>Month: <input type="month" placeholder="---------, -----"></label><br/><br/>
+            <label>Week: <input type="week" placeholder="Week --, ---"></label><br/><br/>
+            <label>Time: <input type="time" name="time" id="" placeholder="--:--, ----"></label><br/><br/>
+            <label>Date Time-Local: <input type="datetime-local" name="" id="" placeholder=" --:-- --"></label><br/><br/>
+        </fieldset>
+        <br/> <br/>
+
+        <fieldset>
+            <legend>Selections</legend><br/>
+            <label><input type="radio" name="gender" value="male"> Male</label>
+            <label><input type="radio" name="gender" value="female"> Female</label><br/> <br/>
+            <label><input type="checkbox">Sports</label>
+            <label><input type="checkbox">Music</label><br/> <br/>
+            <label>Select: 
+                <select>
+                    <option value="bmw">BMW</option>
+                    <option value="saab">Saab</option>
+                    <option value="mercedes">Mercedes</option>
+                    <option value="audi">Audi</option>
+                </select>
+            </label>
+        </fieldset>
+        <br/> <br/>
+
+        <fieldset>
+            <legend>Files & Colors</legend><br/>
+            <label>File Upload: <input type="file"></label><br/><br/>
+            <label>Color: <input type="color"></label>
+        </fieldset>
+        <br/> <br/>
+        <fieldset>
+            <legend>Special Inputs</legend>
+            <label>Range: <input type="range" min="0" max="100" value="50"></label><br/><br/>
+            <label>Hidden: <input type="hidden"></label><br/><br/>
+            <label>Readonly: <input type="text" value="Read-only value" ></label><br/><br/>
+            <label>Disabled: <input type="text" value="Disabled Input" disabled ></label><br/><br/>
+            <label>Textarea: <Textarea></Textarea></label>
+        </fieldset>
+        <br/> <br/>
+        <fieldset>
+            <legend>Form Controls</legend><br/>
+            <label>Submit Button: <input type="submit" name="Submit" id=""></label><br/><br/>
+            <label>Reset Button: <input type="reset" name="Reset" id=""></label><br/><br/>
+        </fieldset>
+    </form>
+</body>
+</html>
